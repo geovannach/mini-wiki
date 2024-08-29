@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 // seletor{
 // propriedades:valor;
 // }
 
 // primeira coisa a fazer no arquivo de style é o reset
-//* eletor univeral/global
-// dentro do 8{} só colocamos o reset
+//*seletor univeral/global
+// dentro do *{} só colocamos o reset
 *{
   margin: 0;// espaço de fora da tag
  padding: 0;// espaço de dentro da tag
@@ -13,7 +15,8 @@
 
 //body é o corpo do site
 body{
-background-color: blueviolet;// cor de fundo
+font-family: "Poppins", sans-serif; ;
+background-color: rgb(100, 41, 155);// cor de fundo
 }
 
 img{
@@ -22,7 +25,27 @@ img{
 }
 
 h1{
- // color - cor   
-    color: rgb(96, 193, 208);
- // red, green e blue 0 ao 255 
+   //font-family, mudar o tipo de font 
+
+   font-family: "Nerko One", cursive;
+ // color = cor   
+    color: rgb(42, 137, 193);
+ // red, green e blue, 0 ao 255 
 }
+   // no index.html nos vamos nomear a tag ->class
+//para chamar uma class aqui no style precisamos usar o:.nomeDaClass.tituloMusicas{
+  //propriedade:valor; color:blanchedalmond;
+
+
+  ol{
+   //COR HEXADECIMAL
+    //  # SEGUIDA DE 3 PARES, CADA PARA É REFERENTE AO RGB, 00, ff
+   //background-color: #040433;
+   //rgb + alpha(rgba) ele é referente ao uma cor com opacidade/trasparencia
+   background-color: rgba(124, 40, 93, 0.203);
+   color: rgb(30, 166, 166);
+} 
+
+
+
+
